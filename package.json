@@ -1,7 +1,11 @@
 {
   "name": "acme-app",
   "version": "0.0.1",
-  "private": true,
+    "private": true,
+    "scripts": {
+	"start": "shadow-cljs watch :frontend",
+	"build": "shadow-cljs release :frontend"
+    },
   "devDependencies": {
     "shadow-cljs": "2.20.15"
   },
