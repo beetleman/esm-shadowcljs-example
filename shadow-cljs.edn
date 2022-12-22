@@ -13,4 +13,5 @@
  {:frontend
   {:target :esm
    :output-dir "public/js"
-   :modules {:main {:exports {init acme.app/init}}}}}}
+   :modules {:main {:exports {init acme.app/init}}}
+   :release {:output-dir "lib"}}}}
